@@ -1,7 +1,7 @@
 ## Презентація
 
-- Файл: [crystal-siege_slides.pdf](https://github.com/user-attachments/files/34201482/crystal-siege_slides.pdf)
+Файл: [crystal-siege_slides.pdf](https://github.com/user-attachments/files/34201482/crystal-siege_slides.pdf)
 
 Що в презентації: концепція гри, механіка й цикл, порівняння з аналогами, схема й діаграма станів, результати трьох прототипів, план наступної частини.
 
-Автор: Софія Шкарбан
+
