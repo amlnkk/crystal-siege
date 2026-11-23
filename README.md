@@ -1,3 +1,5 @@
+<img width="1600" height="575" alt="crystal-siege-logo" src="https://github.com/user-attachments/assets/b2efd2b0-5261-4766-b83f-adeeb9ee6e3c" />
+
 # Кристальна облога (crystal-siege)
 
 Arcade survival game: collect crystals, buy defenses, survive escalating enemy waves.
