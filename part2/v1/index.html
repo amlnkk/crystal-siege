@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Кристальна облога</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Barlow+Semi+Condensed:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <header class="bar">
+      <div class="stat grow"><span class="k">Хвиля</span><b id="h-wave">0</b></div>
+      <div class="stat"><span class="k">Життя</span><span id="h-hp" class="pips"></span></div>
+      <div class="stat"><span class="k">Кристали</span><b id="h-cry">0</b></div>
+      <div class="stat"><span class="k">Стіни</span><b id="h-sh">0</b></div>
+      <div class="stat"><span class="k">Турелі</span><b id="h-tu">0</b></div>
+    </header>
+
+    <section class="stage">
+      <canvas id="c" width="800" height="520" aria-label="Поле гри"></canvas>
+      <div id="hint" class="hint" hidden>
+        <kbd>Пробіл</kbd> або клік мишкою: стрільба.
+        <kbd>←</kbd><kbd>↑</kbd><kbd>↓</kbd><kbd>→</kbd> або <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd>: рух.
+      </div>
+      <div id="ov" class="overlay"></div>
+    </section>
+
+    <footer class="legend">
+      <span>Рух: <kbd>←</kbd><kbd>↑</kbd><kbd>↓</kbd><kbd>→</kbd> або <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd></span>
+      <span>Стрільба: <kbd>Пробіл</kbd> або клік мишкою</span>
+    </footer>
+  </main>
+  <script src="game.js"></script>
+</body>
+</html>
